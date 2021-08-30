@@ -28,6 +28,7 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.css",
               "src/styles.less"
             ],
             "scripts": []
@@ -123,6 +124,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angular-modal-example"
+    }
+  },
+  "defaultProject": "angular-modal-example",
+  "cli": {
+    "analytics": false
+  }
 }
